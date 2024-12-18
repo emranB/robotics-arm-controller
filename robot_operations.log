@@ -1,0 +1,228 @@
+2024-12-18 00:04:31.932 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_OFF
+2024-12-18 00:04:31.932 | INFO     | src.dashboard_client:send_command:17 - Sent 'power on' | Received: SUCCESS: Powering on
+2024-12-18 00:04:31.933 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:05:45.318 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_OFF
+2024-12-18 00:05:45.319 | INFO     | src.dashboard_client:send_command:17 - Sent 'power on' | Received: SUCCESS: Powering on
+2024-12-18 00:05:45.320 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:05:54.207 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:05:54.208 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:06:29.533 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:06:29.533 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:09:13.295 | INFO     | __main__:main:18 - Initializing robot...
+2024-12-18 00:09:13.295 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:09:13.296 | INFO     | __main__:main:21 - Current robot mode: STATUS: Robotmode is POWER_ON
+2024-12-18 00:09:13.296 | INFO     | __main__:main:28 - Releasing brakes...
+2024-12-18 00:09:13.296 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:09:13.296 | INFO     | __main__:main:30 - SUCCESS: Brake releasing
+2024-12-18 00:09:13.296 | INFO     | __main__:main:39 - Loading module data...
+2024-12-18 00:09:13.296 | ERROR    | __main__:main:48 - Failed to plan path: 'rail_position'
+2024-12-18 00:11:09.693 | INFO     | __main__:main:18 - Initializing robot...
+2024-12-18 00:11:09.693 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:11:09.693 | INFO     | __main__:main:21 - Current robot mode: STATUS: Robotmode is POWER_ON
+2024-12-18 00:11:09.693 | INFO     | __main__:main:28 - Releasing brakes...
+2024-12-18 00:11:09.694 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:11:09.694 | INFO     | __main__:main:30 - SUCCESS: Brake releasing
+2024-12-18 00:11:09.694 | INFO     | __main__:main:39 - Loading module data...
+2024-12-18 00:11:09.694 | INFO     | __main__:main:43 - Calculating path from Module_A to Module_C...
+2024-12-18 00:11:09.694 | ERROR    | __main__:main:48 - Failed to plan path: 'Module_A'
+2024-12-18 00:12:02.101 | INFO     | __main__:main:17 - Initializing robot...
+2024-12-18 00:12:02.102 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:12:02.102 | INFO     | __main__:main:20 - Current robot mode: STATUS: Robotmode is POWER_ON
+2024-12-18 00:12:02.102 | INFO     | __main__:main:27 - Releasing brakes...
+2024-12-18 00:12:02.102 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:12:02.102 | INFO     | __main__:main:29 - SUCCESS: Brake releasing
+2024-12-18 00:12:02.102 | DEBUG    | __main__:main:38 - Loading module data from: /home/emran/Desktop/Code/robotics-technical-challenge/./robotics_technical_challenge/../docs/module_data.csv
+2024-12-18 00:12:02.102 | DEBUG    | __main__:main:40 - Loaded module data: {'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:12:02.102 | INFO     | __main__:main:43 - Calculating path from Module_A to Module_C...
+2024-12-18 00:12:02.102 | ERROR    | __main__:main:47 - Start module 'Module_A' not found in module data.
+2024-12-18 00:12:02.102 | ERROR    | __main__:main:49 - End module 'Module_C' not found in module data.
+2024-12-18 00:12:02.103 | ERROR    | __main__:main:55 - Failed to plan path: 'Module_A'
+2024-12-18 00:13:15.720 | INFO     | __main__:main:17 - Initializing robot...
+2024-12-18 00:13:15.721 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:13:15.721 | INFO     | __main__:main:20 - Current robot mode: STATUS: Robotmode is POWER_ON
+2024-12-18 00:13:15.721 | INFO     | __main__:main:27 - Releasing brakes...
+2024-12-18 00:13:15.721 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:13:15.722 | INFO     | __main__:main:29 - SUCCESS: Brake releasing
+2024-12-18 00:13:15.722 | DEBUG    | __main__:main:38 - Loading module data from: /home/emran/Desktop/Code/robotics-technical-challenge/./robotics_technical_challenge/../docs/module_data.csv
+2024-12-18 00:13:15.722 | DEBUG    | src.path_planning:load_module_data:12 - CSV columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:13:15.722 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Incubator', 'rail position at center of module (in mm)': '1000', 'module width (in mm)': '500'}
+2024-12-18 00:13:15.722 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Output for Scientist', 'rail position at center of module (in mm)': '2000', 'module width (in mm)': '500'}
+2024-12-18 00:13:15.722 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Add Media', 'rail position at center of module (in mm)': '1000', 'module width (in mm)': '500'}
+2024-12-18 00:13:15.722 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Sample', 'rail position at center of module (in mm)': '2000', 'module width (in mm)': '500'}
+2024-12-18 00:13:15.722 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Robotic Arm', 'rail position at center of module (in mm)': '-', 'module width (in mm)': '-'}
+2024-12-18 00:13:15.722 | WARNING  | src.path_planning:load_module_data:20 - Invalid rail position for module 'Robotic Arm': -
+2024-12-18 00:13:15.723 | DEBUG    | src.path_planning:load_module_data:21 - Loaded module data: {'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:13:15.723 | DEBUG    | __main__:main:40 - Loaded module data: {'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:13:15.723 | INFO     | __main__:main:43 - Calculating path from Module_A to Module_C...
+2024-12-18 00:13:15.723 | ERROR    | __main__:main:47 - Start module 'Module_A' not found in module data.
+2024-12-18 00:13:15.723 | ERROR    | __main__:main:49 - End module 'Module_C' not found in module data.
+2024-12-18 00:13:15.723 | DEBUG    | src.path_planning:dijkstra:30 - Starting Dijkstra: start=Module_A, end=Module_C, modules={'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:13:15.723 | ERROR    | src.path_planning:dijkstra:32 - Start or end module not found. Start: Module_A, End: Module_C
+2024-12-18 00:13:15.723 | ERROR    | __main__:main:55 - Failed to plan path: Start 'Module_A' or end 'Module_C' module not found in modules.
+2024-12-18 00:14:06.776 | INFO     | __main__:main:17 - Initializing robot...
+2024-12-18 00:14:06.777 | INFO     | src.dashboard_client:send_command:17 - Sent 'robotmode' | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:14:06.777 | INFO     | __main__:main:20 - Current robot mode: STATUS: Robotmode is POWER_ON
+2024-12-18 00:14:06.777 | INFO     | __main__:main:27 - Releasing brakes...
+2024-12-18 00:14:06.778 | INFO     | src.dashboard_client:send_command:17 - Sent 'brake release' | Received: SUCCESS: Brake releasing
+2024-12-18 00:14:06.778 | INFO     | __main__:main:29 - SUCCESS: Brake releasing
+2024-12-18 00:14:06.778 | DEBUG    | __main__:main:38 - Loading module data from: /home/emran/Desktop/Code/robotics-technical-challenge/./robotics_technical_challenge/../docs/module_data.csv
+2024-12-18 00:14:06.778 | DEBUG    | src.path_planning:load_module_data:12 - CSV columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:14:06.778 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Incubator', 'rail position at center of module (in mm)': '1000', 'module width (in mm)': '500'}
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Output for Scientist', 'rail position at center of module (in mm)': '2000', 'module width (in mm)': '500'}
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Add Media', 'rail position at center of module (in mm)': '1000', 'module width (in mm)': '500'}
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Sample', 'rail position at center of module (in mm)': '2000', 'module width (in mm)': '500'}
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:load_module_data:14 - Row data: {'human readable name': 'Robotic Arm', 'rail position at center of module (in mm)': '-', 'module width (in mm)': '-'}
+2024-12-18 00:14:06.779 | WARNING  | src.path_planning:load_module_data:20 - Invalid rail position for module 'Robotic Arm': -
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:load_module_data:21 - Loaded module data: {'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:14:06.779 | DEBUG    | __main__:main:40 - Loaded module data: {'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:14:06.779 | INFO     | __main__:main:43 - Calculating path from Incubator to Output for Scientist...
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:30 - Starting Dijkstra: start=Incubator, end=Output for Scientist, modules={'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:47 - Constructed graph: {'Incubator': {'Output for Scientist': 1000, 'Add Media': 0, 'Sample': 1000}, 'Output for Scientist': {'Incubator': 1000, 'Add Media': 1000, 'Sample': 0}, 'Add Media': {'Incubator': 0, 'Output for Scientist': 1000, 'Sample': 1000}, 'Sample': {'Incubator': 1000, 'Output for Scientist': 0, 'Add Media': 1000}}
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:54 - Visiting: Incubator, Cost: 0, Path so far: []
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:67 - Pushing to queue: Output for Scientist with cost 1000
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:67 - Pushing to queue: Add Media with cost 0
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:67 - Pushing to queue: Sample with cost 1000
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:54 - Visiting: Add Media, Cost: 0, Path so far: [1000]
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:67 - Pushing to queue: Output for Scientist with cost 1000
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:67 - Pushing to queue: Sample with cost 1000
+2024-12-18 00:14:06.779 | DEBUG    | src.path_planning:dijkstra:54 - Visiting: Output for Scientist, Cost: 1000, Path so far: [1000]
+2024-12-18 00:14:06.780 | INFO     | src.path_planning:dijkstra:60 - Found path: [1000, 2000]
+2024-12-18 00:14:06.780 | INFO     | __main__:main:52 - Planned path: [1000, 2000]
+2024-12-18 00:14:06.780 | INFO     | __main__:main:60 - Moving GRex along the planned path...
+2024-12-18 00:14:06.780 | INFO     | src.dashboard_client:send_command:17 - Sent 'move_to_rail_pose 1000' | Received: SUCCESS: Moved to rail position
+2024-12-18 00:14:06.780 | INFO     | __main__:main:63 - SUCCESS: Moved to rail position
+2024-12-18 00:14:06.780 | INFO     | src.dashboard_client:send_command:17 - Sent 'move_to_rail_pose 2000' | Received: SUCCESS: Moved to rail position
+2024-12-18 00:14:06.781 | INFO     | __main__:main:63 - SUCCESS: Moved to rail position
+2024-12-18 00:14:06.781 | INFO     | __main__:main:65 - Engaging tool to pick up GRex...
+2024-12-18 00:14:06.781 | INFO     | src.dashboard_client:send_command:17 - Sent 'engage_tool' | Received: SUCCESS: Tool engaged
+2024-12-18 00:14:06.781 | INFO     | __main__:main:67 - SUCCESS: Tool engaged
+2024-12-18 00:14:06.781 | INFO     | __main__:main:69 - Disengaging tool to place GRex...
+2024-12-18 00:14:06.782 | INFO     | src.dashboard_client:send_command:17 - Sent 'disengage_tool' | Received: SUCCESS: Tool disengaged
+2024-12-18 00:14:06.782 | INFO     | __main__:main:71 - SUCCESS: Tool disengaged
+2024-12-18 00:14:06.782 | INFO     | __main__:main:73 - GRex successfully moved.
+2024-12-18 00:53:20.410 | INFO     | __main__:main:26 - Initializing robot...
+2024-12-18 00:53:20.411 | DEBUG    | src.dashboard_client:send_command:40 - Sent: robotmode | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:53:20.411 | INFO     | __main__:main:28 - STATUS: Robotmode is POWER_ON
+2024-12-18 00:53:20.412 | DEBUG    | src.dashboard_client:send_command:40 - Sent: power on | Received: SUCCESS: Powering on
+2024-12-18 00:53:20.412 | INFO     | __main__:main:29 - SUCCESS: Powering on
+2024-12-18 00:53:20.413 | DEBUG    | src.dashboard_client:send_command:40 - Sent: brake release | Received: SUCCESS: Brake releasing
+2024-12-18 00:53:20.413 | INFO     | __main__:main:30 - SUCCESS: Brake releasing
+2024-12-18 00:53:20.413 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:53:20.413 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 00:53:20.413 | DEBUG    | src.path_planning:load_grex_locations:50 - GRex Data Columns: ['location of grex', 'x in base frame', 'y in base frame', 'z in base frame', 'rx in base frame', 'ry in base frame', 'rz in base frame']
+2024-12-18 00:53:20.413 | ERROR    | __main__:main:44 - Error loading data: 'grex_name'
+2024-12-18 00:54:27.873 | INFO     | __main__:main:26 - Initializing robot...
+2024-12-18 00:54:27.873 | DEBUG    | src.dashboard_client:send_command:40 - Sent: robotmode | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:54:27.873 | INFO     | __main__:main:28 - STATUS: Robotmode is POWER_ON
+2024-12-18 00:54:27.874 | DEBUG    | src.dashboard_client:send_command:40 - Sent: power on | Received: SUCCESS: Powering on
+2024-12-18 00:54:27.874 | INFO     | __main__:main:29 - SUCCESS: Powering on
+2024-12-18 00:54:27.875 | DEBUG    | src.dashboard_client:send_command:40 - Sent: brake release | Received: SUCCESS: Brake releasing
+2024-12-18 00:54:27.875 | INFO     | __main__:main:30 - SUCCESS: Brake releasing
+2024-12-18 00:54:27.875 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:54:27.875 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 00:54:27.875 | DEBUG    | src.path_planning:load_grex_locations:53 - GRex Data Columns: ['location of grex', 'x in base frame', 'y in base frame', 'z in base frame', 'rx in base frame', 'ry in base frame', 'rz in base frame']
+2024-12-18 00:54:27.875 | DEBUG    | src.path_planning:load_grex_locations:69 - Loaded GRex locations: {'Incubator': {'x': 200, 'y': 200, 'z': 200}, 'Add Media': {'x': 325, 'y': 100, 'z': 400}, 'Sample': {'x': 325, 'y': 600, 'z': 400}, 'Output for Scientist': {'x': 250, 'y': 400, 'z': 300}}
+2024-12-18 00:54:27.875 | INFO     | __main__:main:41 - Module Data: {'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:54:27.875 | INFO     | __main__:main:42 - GRex Locations: {'Incubator': {'x': 200, 'y': 200, 'z': 200}, 'Add Media': {'x': 325, 'y': 100, 'z': 400}, 'Sample': {'x': 325, 'y': 600, 'z': 400}, 'Output for Scientist': {'x': 250, 'y': 400, 'z': 300}}
+2024-12-18 00:54:27.876 | DEBUG    | src.path_planning:dijkstra:94 - Constructed graph: {'Incubator': {'Output for Scientist': 1000, 'Add Media': 0, 'Sample': 1000}, 'Output for Scientist': {'Incubator': 1000, 'Add Media': 1000, 'Sample': 0}, 'Add Media': {'Incubator': 0, 'Output for Scientist': 1000, 'Sample': 1000}, 'Sample': {'Incubator': 1000, 'Output for Scientist': 0, 'Add Media': 1000}}
+2024-12-18 00:54:27.876 | INFO     | __main__:main:52 - Planned Path: [1000, 2000]
+2024-12-18 00:54:27.876 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 1000 | Received: SUCCESS: Moved to rail position
+2024-12-18 00:54:27.876 | INFO     | __main__:main:60 - SUCCESS: Moved to rail position
+2024-12-18 00:54:27.877 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 2000 | Received: SUCCESS: Moved to rail position
+2024-12-18 00:54:27.877 | INFO     | __main__:main:60 - SUCCESS: Moved to rail position
+2024-12-18 00:54:27.877 | DEBUG    | src.dashboard_client:send_command:40 - Sent: engage_tool | Received: SUCCESS: Tool engaged
+2024-12-18 00:54:27.878 | INFO     | __main__:main:61 - SUCCESS: Tool engaged
+2024-12-18 00:54:27.878 | DEBUG    | src.dashboard_client:send_command:40 - Sent: disengage_tool | Received: SUCCESS: Tool disengaged
+2024-12-18 00:54:27.878 | INFO     | __main__:main:62 - SUCCESS: Tool disengaged
+2024-12-18 00:54:27.878 | INFO     | __main__:main:63 - GRex movement complete.
+2024-12-18 00:54:27.878 | INFO     | __main__:main:70 - Running Tests...
+2024-12-18 00:54:27.927 | DEBUG    | src.dashboard_client:send_command:40 - Sent: robotmode | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:54:27.928 | DEBUG    | src.dashboard_client:send_command:40 - Sent: power on | Received: SUCCESS: Powering on
+2024-12-18 00:54:27.929 | DEBUG    | src.dashboard_client:send_command:40 - Sent: brake release | Received: SUCCESS: Brake releasing
+2024-12-18 00:54:27.930 | DEBUG    | src.dashboard_client:send_command:40 - Sent: invalid_command | Received: ERROR: Unknown command 'invalid_command'
+2024-12-18 00:54:27.932 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:54:27.932 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 00:54:27.932 | DEBUG    | src.path_planning:dijkstra:94 - Constructed graph: {'Incubator': {'Output for Scientist': 1000, 'Add Media': 0, 'Sample': 1000}, 'Output for Scientist': {'Incubator': 1000, 'Add Media': 1000, 'Sample': 0}, 'Add Media': {'Incubator': 0, 'Output for Scientist': 1000, 'Sample': 1000}, 'Sample': {'Incubator': 1000, 'Output for Scientist': 0, 'Add Media': 1000}}
+2024-12-18 00:54:27.933 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:54:27.933 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 00:54:27.934 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 1000 | Received: SUCCESS: Moved to rail position
+2024-12-18 00:54:27.935 | DEBUG    | src.dashboard_client:send_command:40 - Sent: engage_tool | Received: SUCCESS: Tool engaged
+2024-12-18 00:54:27.935 | DEBUG    | src.dashboard_client:send_command:40 - Sent: disengage_tool | Received: SUCCESS: Tool disengaged
+2024-12-18 00:54:27.936 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose invalid_position | Received: SUCCESS: Moved to rail position
+2024-12-18 00:54:27.955 | INFO     | __main__:main:72 - Tests completed with exit code: 1
+2024-12-18 00:55:24.889 | INFO     | __main__:main:26 - Initializing robot...
+2024-12-18 00:55:24.890 | DEBUG    | src.dashboard_client:send_command:40 - Sent: robotmode | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:55:24.890 | INFO     | __main__:main:28 - STATUS: Robotmode is POWER_ON
+2024-12-18 00:55:24.891 | DEBUG    | src.dashboard_client:send_command:40 - Sent: power on | Received: SUCCESS: Powering on
+2024-12-18 00:55:24.891 | INFO     | __main__:main:29 - SUCCESS: Powering on
+2024-12-18 00:55:24.892 | DEBUG    | src.dashboard_client:send_command:40 - Sent: brake release | Received: SUCCESS: Brake releasing
+2024-12-18 00:55:24.892 | INFO     | __main__:main:30 - SUCCESS: Brake releasing
+2024-12-18 00:55:24.892 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:55:24.892 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 00:55:24.892 | DEBUG    | src.path_planning:load_grex_locations:53 - GRex Data Columns: ['location of grex', 'x in base frame', 'y in base frame', 'z in base frame', 'rx in base frame', 'ry in base frame', 'rz in base frame']
+2024-12-18 00:55:24.892 | DEBUG    | src.path_planning:load_grex_locations:69 - Loaded GRex locations: {'Incubator': {'x': 200, 'y': 200, 'z': 200}, 'Add Media': {'x': 325, 'y': 100, 'z': 400}, 'Sample': {'x': 325, 'y': 600, 'z': 400}, 'Output for Scientist': {'x': 250, 'y': 400, 'z': 300}}
+2024-12-18 00:55:24.892 | INFO     | __main__:main:41 - Module Data: {'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 00:55:24.892 | INFO     | __main__:main:42 - GRex Locations: {'Incubator': {'x': 200, 'y': 200, 'z': 200}, 'Add Media': {'x': 325, 'y': 100, 'z': 400}, 'Sample': {'x': 325, 'y': 600, 'z': 400}, 'Output for Scientist': {'x': 250, 'y': 400, 'z': 300}}
+2024-12-18 00:55:24.893 | DEBUG    | src.path_planning:dijkstra:94 - Constructed graph: {'Incubator': {'Output for Scientist': 1000, 'Add Media': 0, 'Sample': 1000}, 'Output for Scientist': {'Incubator': 1000, 'Add Media': 1000, 'Sample': 0}, 'Add Media': {'Incubator': 0, 'Output for Scientist': 1000, 'Sample': 1000}, 'Sample': {'Incubator': 1000, 'Output for Scientist': 0, 'Add Media': 1000}}
+2024-12-18 00:55:24.893 | INFO     | __main__:main:52 - Planned Path: [1000, 2000]
+2024-12-18 00:55:24.893 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 1000 | Received: SUCCESS: Moved to rail position
+2024-12-18 00:55:24.893 | INFO     | __main__:main:60 - SUCCESS: Moved to rail position
+2024-12-18 00:55:24.894 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 2000 | Received: SUCCESS: Moved to rail position
+2024-12-18 00:55:24.894 | INFO     | __main__:main:60 - SUCCESS: Moved to rail position
+2024-12-18 00:55:24.894 | DEBUG    | src.dashboard_client:send_command:40 - Sent: engage_tool | Received: SUCCESS: Tool engaged
+2024-12-18 00:55:24.895 | INFO     | __main__:main:61 - SUCCESS: Tool engaged
+2024-12-18 00:55:24.895 | DEBUG    | src.dashboard_client:send_command:40 - Sent: disengage_tool | Received: SUCCESS: Tool disengaged
+2024-12-18 00:55:24.895 | INFO     | __main__:main:62 - SUCCESS: Tool disengaged
+2024-12-18 00:55:24.895 | INFO     | __main__:main:63 - GRex movement complete.
+2024-12-18 00:55:24.895 | INFO     | __main__:main:70 - Running Tests...
+2024-12-18 00:55:24.936 | DEBUG    | src.dashboard_client:send_command:40 - Sent: robotmode | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 00:55:24.937 | DEBUG    | src.dashboard_client:send_command:40 - Sent: power on | Received: SUCCESS: Powering on
+2024-12-18 00:55:24.937 | DEBUG    | src.dashboard_client:send_command:40 - Sent: brake release | Received: SUCCESS: Brake releasing
+2024-12-18 00:55:24.939 | DEBUG    | src.dashboard_client:send_command:40 - Sent: invalid_command | Received: ERROR: Unknown command 'invalid_command'
+2024-12-18 00:55:24.940 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:55:24.940 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 00:55:24.940 | DEBUG    | src.path_planning:dijkstra:94 - Constructed graph: {'Incubator': {'Output for Scientist': 1000, 'Add Media': 0, 'Sample': 1000}, 'Output for Scientist': {'Incubator': 1000, 'Add Media': 1000, 'Sample': 0}, 'Add Media': {'Incubator': 0, 'Output for Scientist': 1000, 'Sample': 1000}, 'Sample': {'Incubator': 1000, 'Output for Scientist': 0, 'Add Media': 1000}}
+2024-12-18 00:55:24.941 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 00:55:24.941 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 00:55:24.942 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 1000 | Received: SUCCESS: Moved to rail position
+2024-12-18 00:55:24.943 | DEBUG    | src.dashboard_client:send_command:40 - Sent: engage_tool | Received: SUCCESS: Tool engaged
+2024-12-18 00:55:24.944 | DEBUG    | src.dashboard_client:send_command:40 - Sent: disengage_tool | Received: SUCCESS: Tool disengaged
+2024-12-18 00:55:24.947 | INFO     | __main__:main:72 - Tests completed with exit code: 0
+2024-12-18 01:00:45.348 | INFO     | __main__:main:26 - Initializing robot...
+2024-12-18 01:00:45.349 | DEBUG    | src.dashboard_client:send_command:40 - Sent: robotmode | Received: STATUS: Robotmode is POWER_OFF
+2024-12-18 01:00:45.349 | INFO     | __main__:main:28 - STATUS: Robotmode is POWER_OFF
+2024-12-18 01:00:45.350 | DEBUG    | src.dashboard_client:send_command:40 - Sent: power on | Received: SUCCESS: Powering on
+2024-12-18 01:00:45.350 | INFO     | __main__:main:29 - SUCCESS: Powering on
+2024-12-18 01:00:45.351 | DEBUG    | src.dashboard_client:send_command:40 - Sent: brake release | Received: SUCCESS: Brake releasing
+2024-12-18 01:00:45.351 | INFO     | __main__:main:30 - SUCCESS: Brake releasing
+2024-12-18 01:00:45.351 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 01:00:45.351 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 01:00:45.351 | DEBUG    | src.path_planning:load_grex_locations:53 - GRex Data Columns: ['location of grex', 'x in base frame', 'y in base frame', 'z in base frame', 'rx in base frame', 'ry in base frame', 'rz in base frame']
+2024-12-18 01:00:45.352 | DEBUG    | src.path_planning:load_grex_locations:69 - Loaded GRex locations: {'Incubator': {'x': 200, 'y': 200, 'z': 200}, 'Add Media': {'x': 325, 'y': 100, 'z': 400}, 'Sample': {'x': 325, 'y': 600, 'z': 400}, 'Output for Scientist': {'x': 250, 'y': 400, 'z': 300}}
+2024-12-18 01:00:45.352 | INFO     | __main__:main:41 - Module Data: {'Incubator': 1000, 'Output for Scientist': 2000, 'Add Media': 1000, 'Sample': 2000}
+2024-12-18 01:00:45.352 | INFO     | __main__:main:42 - GRex Locations: {'Incubator': {'x': 200, 'y': 200, 'z': 200}, 'Add Media': {'x': 325, 'y': 100, 'z': 400}, 'Sample': {'x': 325, 'y': 600, 'z': 400}, 'Output for Scientist': {'x': 250, 'y': 400, 'z': 300}}
+2024-12-18 01:00:45.352 | DEBUG    | src.path_planning:dijkstra:94 - Constructed graph: {'Incubator': {'Output for Scientist': 1000, 'Add Media': 0, 'Sample': 1000}, 'Output for Scientist': {'Incubator': 1000, 'Add Media': 1000, 'Sample': 0}, 'Add Media': {'Incubator': 0, 'Output for Scientist': 1000, 'Sample': 1000}, 'Sample': {'Incubator': 1000, 'Output for Scientist': 0, 'Add Media': 1000}}
+2024-12-18 01:00:45.352 | INFO     | __main__:main:52 - Planned Path: [1000, 2000]
+2024-12-18 01:00:45.352 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 1000 | Received: SUCCESS: Moved to rail position
+2024-12-18 01:00:45.352 | INFO     | __main__:main:60 - SUCCESS: Moved to rail position
+2024-12-18 01:00:45.353 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 2000 | Received: SUCCESS: Moved to rail position
+2024-12-18 01:00:45.353 | INFO     | __main__:main:60 - SUCCESS: Moved to rail position
+2024-12-18 01:00:45.354 | DEBUG    | src.dashboard_client:send_command:40 - Sent: engage_tool | Received: SUCCESS: Tool engaged
+2024-12-18 01:00:45.354 | INFO     | __main__:main:61 - SUCCESS: Tool engaged
+2024-12-18 01:00:45.354 | DEBUG    | src.dashboard_client:send_command:40 - Sent: disengage_tool | Received: SUCCESS: Tool disengaged
+2024-12-18 01:00:45.354 | INFO     | __main__:main:62 - SUCCESS: Tool disengaged
+2024-12-18 01:00:45.354 | INFO     | __main__:main:63 - GRex movement complete.
+2024-12-18 01:00:45.354 | INFO     | __main__:main:70 - Running Tests...
+2024-12-18 01:00:45.402 | DEBUG    | src.dashboard_client:send_command:40 - Sent: robotmode | Received: STATUS: Robotmode is POWER_ON
+2024-12-18 01:00:45.403 | DEBUG    | src.dashboard_client:send_command:40 - Sent: power on | Received: SUCCESS: Powering on
+2024-12-18 01:00:45.403 | DEBUG    | src.dashboard_client:send_command:40 - Sent: brake release | Received: SUCCESS: Brake releasing
+2024-12-18 01:00:45.404 | DEBUG    | src.dashboard_client:send_command:40 - Sent: invalid_command | Received: ERROR: Unknown command 'invalid_command'
+2024-12-18 01:00:45.405 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 01:00:45.405 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 01:00:45.406 | DEBUG    | src.path_planning:dijkstra:94 - Constructed graph: {'Incubator': {'Output for Scientist': 1000, 'Add Media': 0, 'Sample': 1000}, 'Output for Scientist': {'Incubator': 1000, 'Add Media': 1000, 'Sample': 0}, 'Add Media': {'Incubator': 0, 'Output for Scientist': 1000, 'Sample': 1000}, 'Sample': {'Incubator': 1000, 'Output for Scientist': 0, 'Add Media': 1000}}
+2024-12-18 01:00:45.406 | DEBUG    | src.path_planning:load_module_data:27 - CSV Columns: ['human readable name', 'rail position at center of module (in mm)', 'module width (in mm)']
+2024-12-18 01:00:45.407 | WARNING  | src.path_planning:load_module_data:34 - Invalid rail position for Robotic Arm: -
+2024-12-18 01:00:45.408 | DEBUG    | src.dashboard_client:send_command:40 - Sent: move_to_rail_pose 1000 | Received: SUCCESS: Moved to rail position
+2024-12-18 01:00:45.408 | DEBUG    | src.dashboard_client:send_command:40 - Sent: engage_tool | Received: SUCCESS: Tool engaged
+2024-12-18 01:00:45.409 | DEBUG    | src.dashboard_client:send_command:40 - Sent: disengage_tool | Received: SUCCESS: Tool disengaged
+2024-12-18 01:00:45.411 | INFO     | __main__:main:72 - Tests completed with exit code: 0

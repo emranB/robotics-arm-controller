@@ -1,0 +1,9 @@
+{
+    "dashboard-host": "127.0.0.1",
+    "dashboard-port": 29999,
+    "module-data-path": "./docs/module_data.csv",
+    "grex-location-data-path": "./docs/grex_location_data.csv",
+    "debug": true,
+    "run-tests": true
+  }
+  
