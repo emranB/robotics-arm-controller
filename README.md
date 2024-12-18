@@ -5,7 +5,7 @@
 ## **1. How to Build**
 a. Clone the repository:
 ```bash
-git clone <repository_url>
+git clone https://github.com/emranB/robotics-arm-controller.git
 cd robotics-technical-challenge
 ```
 
